@@ -6,28 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="This is the description">
   <title>LINKIN PARK | Merch</title>
+
+  <!-- Font-awesome CDN -->
+  <script src="https://kit.fontawesome.com/9310d6db9c.js"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li> <a href="./index.html">HOME</a></li>
-        <li> <a href="./about.html">ABOUT</a></li>
-        <li><a href="#">ABOUT</a></li>
+  <header class="primary-header">
+    <nav class="primary-header__nav">
+      <ul class="primary-header__nav__list">
+        <li class="primary-header__nav__list__item"> <a href="./index.html">HOME</a></li>
+        <li class="primary-header__nav__list__item"> <a href="./about.html">ABOUT</a></li>
+        <li class="primary-header__nav__list__item"><a href="#">ABOUT</a>STORE</li>
       </ul>
     </nav>
-    <hr>
-    <h1>LINKIN PARK</h1>
-    <button type="button">Get Out Latest Album</button>
-    <br>
-    <br>
-    <!-- TODO: FInd a suitable Background Image later -->
-    <button type="button">&#9658;</button>
+    <h1 class="band-name band-name-large">LINKIN PARK</h1>
+    <div class="container">
+      <button class="primary-header__btn btn" type="button">Get Out Latest Album &#9658;</button>
+    </div>
   </header>
 
-  <section>
-    <h2>MUSIC</h2>
+  <section class="content-section container">
+    <h2 class="content-section__header">MUSIC</h2>
     <div>
       <div>
         <strong>Album 1</strong>
@@ -35,7 +38,7 @@
       <img src="imgs/store/Album1.jfif" alt="Album 1">
       <div>
         <span>$12.99</span>
-        <button type="button">ADD TO CART</button>
+        <button class="btn" type="button">ADD TO CART</button>
       </div>
     </div>
     <div>
@@ -45,7 +48,7 @@
       <img src="imgs/store/Album2.jfif" alt="Album 2">
       <div>
         <span>$15.69</span>
-        <button type="button">ADD TO CART</button>
+        <button class="btn" type="button">ADD TO CART</button>
       </div>
     </div>
     <div>
@@ -55,7 +58,7 @@
       <img src="imgs/store/Album3.jfif" alt="Album 3">
       <div>
         <span>$10.99</span>
-        <button type="button">ADD TO CART</button>
+        <button class="btn" type="button">ADD TO CART</button>
       </div>
     </div>
     <div>
@@ -65,13 +68,13 @@
       <img src="imgs/store/Album4.jfif" alt="Album 4">
       <div>
         <span>$14.99</span>
-        <button type="button">ADD TO CART</button>
+        <button class="btn" type="button">ADD TO CART</button>
       </div>
     </div>
   </section>
 
-  <section>
-    <h2>MERCH</h2>
+  <section class="content-section container">
+    <h2 class="content-section__header">MERCH</h2>
     <div>
       <div>
         <strong>T-SHIRT</strong>
@@ -79,7 +82,7 @@
       <img src="imgs/store/Merch1.png" alt="T-shirt" width="300px">
       <div>
         <span>$9.99</span>
-        <button type="button">ADD TO CART</button>
+        <button class="btn" type="button">ADD TO CART</button>
       </div>
     </div>
     <div>
@@ -89,37 +92,31 @@
       <img src="imgs/store/Merch4.png" alt="T-shirt" width="300px">
       <div>
         <span>$7.99</span>
-        <button type="button">ADD TO CART</button>
+        <button class="btn" type="button">ADD TO CART</button>
       </div>
     </div>
   </section>
 
-  <section>
-    <h2>CART</h2>
+  <section class="content-section container">
+    <h2 class="content-section__header">CART</h2>
     <div>
       <strong>ITEM</strong>
-      &lt;&gt;
       <strong>PRICE</strong>
-      &lt;&gt;
       <strong>QUANTITY</strong>
     </div>
     <div>
       <img src="imgs/store/Merch1.png" alt="T-shirt" width="100px">
       <span>T-shirt</span>
-      &lt;&gt;
       <span>$9.99</span>
-      &lt;&gt;
       <input type="number" value="1">
-      <button type="button" role="button">REMOVE</button>
+      <button class="btn" type="button" role="button">REMOVE</button>
     </div>
     <div>
       <img src="imgs/store/Album1.jfif" alt="Album 1" width="100px">
       <span>Album 1</span>
-      &lt;&gt;
       <span>$12.99</span>
-      &lt;&gt;
       <input type="number" value="2">
-      <button type="button" role="button">REMOVE</button>
+      <button class="btn" type="button" role="button">REMOVE</button>
     </div>
     <hr>
     <div>
@@ -128,19 +125,21 @@
     </div>
   </section>
 
-  <footer>
-    <h3>LINKIN PARK</h3>
-    <ul>
-      <li>
-        <a href="https://youtube.com" target="_blank"><img src="imgs/Youtube-Logo.png" alt="Youtube Link" width="50px"></a>
-      </li>
-      <li>
-        <a href="https://spotify.com" target="_blank"><img src="imgs/spotify-logo.png" alt="Spotify Link" width="50px"></a>
-      </li>
-      <li>
-        <a href="https://facebook.com" target="_blank"><img src="imgs/facebook-logo.png" alt="Facebook Link" width="50px"></a>
-      </li>
-    </ul>
+  <footer class="primary-footer">
+    <div class="container">
+      <h3 class="band-name primary-footer__band-name">LINKIN PARK</h3>
+      <ul class="primary-footer__list">
+        <li class="primary-footer__list__item">
+          <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        </li>
+        <li class="primary-footer__list__item">
+          <a href="https://spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
+        </li>
+        <li class="primary-footer__list__item">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        </li>
+      </ul>
+    </div>
   </footer>
 </body>
 
