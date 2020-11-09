@@ -29,99 +29,136 @@
     </div>
   </header>
 
-  <section class="content-section container">
+  <section class="content-section-store container">
     <h2 class="content-section__header">MUSIC</h2>
-    <div>
-      <div>
-        <strong>Album 1</strong>
+    <div class="store__container">
+      <div class="store__left">
+        <div class="store__name-price">
+          <strong>Album 1</strong>
+          <span>$12.99</span>
+        </div>
+        <hr />
+        <img src="imgs/store/Album1.jfif" alt="Album 1" width="240px">
       </div>
-      <img src="imgs/store/Album1.jfif" alt="Album 1">
-      <div>
-        <span>$12.99</span>
-        <button class="btn" type="button">ADD TO CART</button>
-      </div>
-    </div>
-    <div>
-      <div>
-        <strong>Album 2</strong>
-      </div>
-      <img src="imgs/store/Album2.jfif" alt="Album 2">
-      <div>
-        <span>$15.69</span>
-        <button class="btn" type="button">ADD TO CART</button>
+      <div class="store__right">
+        <button class="btn store__btn" type="button">&plus; ADD TO CART</button>
       </div>
     </div>
-    <div>
-      <div>
-        <strong>Album 3</strong>
+    <div class="store__container">
+      <div class="store__left">
+        <div class="store__name-price">
+          <strong>Album 2</strong>
+          <span>$15.69</span>
+        </div>
+        <hr />
+        <img src="imgs/store/Album2.jfif" alt="Album 2" width="240px">
       </div>
-      <img src="imgs/store/Album3.jfif" alt="Album 3">
-      <div>
-        <span>$10.99</span>
-        <button class="btn" type="button">ADD TO CART</button>
+      <div class="store__right">
+        <button class="btn store__btn" type="button">&plus; ADD TO CART</button>
       </div>
     </div>
-    <div>
-      <div>
-        <strong>Album 4</strong>
+    <div class="store__container">
+      <div class="store__left">
+        <div class="store__name-price">
+          <strong>Album 3</strong>
+          <span>$10.99</span>
+        </div>
+        <hr />
+        <img src="imgs/store/Album3.jfif" alt="Album 3" width="240px">
       </div>
-      <img src="imgs/store/Album4.jfif" alt="Album 4">
-      <div>
-        <span>$14.99</span>
-        <button class="btn" type="button">ADD TO CART</button>
+      <div class="store__right">
+        <button class="btn store__btn" type="button">&plus; ADD TO CART</button>
+      </div>
+    </div>
+    <div class="store__container">
+      <div class="store__left">
+        <div class="store__name-price">
+          <strong>Album 4</strong>
+          <span>$14.99</span>
+        </div>
+        <hr />
+        <img src="imgs/store/Album4.jfif" alt="Album 4" width="240px">
+      </div>
+      <div class="store__right">
+        <button class="btn store__btn" type="button">&plus; ADD TO CART</button>
       </div>
     </div>
   </section>
 
-  <section class="content-section container">
+  <section class="content-section-store container">
     <h2 class="content-section__header">MERCH</h2>
-    <div>
-      <div>
-        <strong>T-SHIRT</strong>
+    <div class="store__container">
+      <div class="store__left">
+        <div class="store__name-price">
+          <strong>T-SHIRT</strong>
+          <span>$9.99</span>
+        </div>
+        <hr />
+        <img src="imgs/store/Merch1.png" alt="T-shirt" width="240px">
       </div>
-      <img src="imgs/store/Merch1.png" alt="T-shirt" width="300px">
-      <div>
-        <span>$9.99</span>
-        <button class="btn" type="button">ADD TO CART</button>
+      <div class="store__right">
+        <button class="btn store__btn" type="button">&plus; ADD TO CART</button>
       </div>
     </div>
-    <div>
-      <div>
-        <strong>CAP</strong>
+    <div class="store__container">
+      <div class="store__left">
+        <div class="store__name-price">
+          <strong>CAP</strong>
+          <span>$7.99</span>
+        </div>
+        <hr />
+        <img src="imgs/store/Merch4.png" alt="T-shirt" width="240px">
       </div>
-      <img src="imgs/store/Merch4.png" alt="T-shirt" width="300px">
-      <div>
-        <span>$7.99</span>
-        <button class="btn" type="button">ADD TO CART</button>
+      <div class="store__right">
+        <button class="btn store__btn" type="button">&plus; ADD TO CART</button>
       </div>
     </div>
   </section>
 
-  <section class="content-section container">
+  <section class="content-section-store container">
     <h2 class="content-section__header">CART</h2>
-    <div>
-      <strong>ITEM</strong>
-      <strong>PRICE</strong>
-      <strong>QUANTITY</strong>
-    </div>
-    <div>
-      <img src="imgs/store/Merch1.png" alt="T-shirt" width="100px">
-      <span>T-shirt</span>
-      <span>$9.99</span>
-      <input type="number" value="1">
-      <button class="btn" type="button" role="button">REMOVE</button>
-    </div>
-    <div>
-      <img src="imgs/store/Album1.jfif" alt="Album 1" width="100px">
-      <span>Album 1</span>
-      <span>$12.99</span>
-      <input type="number" value="2">
-      <button class="btn" type="button" role="button">REMOVE</button>
-    </div>
-    <hr>
-    <div>
-      <strong>Total</strong>
-      <span>$36.98</span>
+    <div class="store__table">
+      <div class="table__head table__row">
+        <strong class="table__cell">ITEM</strong>
+        <strong class="table__cell">PRICE</strong>
+        <strong class="table__cell">QUANTITY</strong>
+      </div>
+      <div class="table__row">
+        <div class="table__cell">
+
+          <img src="imgs/store/Merch1.png" alt="T-shirt" width="100px">
+          <strong>T-shirt</strong>
+        </div>
+        <div class="table__cell">
+
+          <span>$9.99</span>
+        </div>
+        <div class="table__cell">
+
+          <input type="number" value="1">
+          <button class="btn store__btn" type="button" role="button">&minus; REMOVE</button>
+        </div>
+      </div>
+      <div class="table__row">
+        <div class="table__cell">
+
+          <img src="imgs/store/Album1.jfif" alt="Album 1" width="100px">
+          <strong>Album 1</strong>
+        </div>
+        <div class="table__cell">
+
+          <span>$12.99</span>
+        </div>
+        <div class="table__cell">
+
+          <input type="number" value="2">
+          <button class="btn store__btn" type="button" role="button">&minus; REMOVE</button>
+        </div>
+      </div>
+      <div class="store__total">
+        <strong>Total</strong>
+        <span>$36.98</span>
+      </div>
     </div>
   </section>
 
