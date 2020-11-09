@@ -61,7 +61,7 @@ body {
 }
 
 .primary-header {
-  background: rgba(51, 51, 51, .6) url(/imgs/Header-Background.jpg);
+  background: rgba(51, 51, 51, .6) url(./imgs/Header-Background.jpg);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
